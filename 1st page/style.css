@@ -1,0 +1,60 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins','sans-serif';
+}
+
+
+  .content{
+    text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      width: 100%;
+  }
+
+  .content h1{
+    font-size:80px;
+    color:#fff;
+    font-weight: 600;
+  }
+.content h2{
+  color:#fff;
+}
+  .book-now {
+    background-color: #d96914;
+    text-decoration: none;
+    display:inline-block;
+    color: #fff;
+    font: size 24px;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 0;
+  }
+
+  .video-background{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  
+  }
+
+  @media(min-aspect-ratio:16/9){
+    .video-background{
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media(min-aspect-ratio:16/9){
+    .video-background{
+      width: 100%;
+      height: auto;
+    }
+  
+  }
