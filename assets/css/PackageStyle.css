@@ -1,0 +1,158 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #fff;
+  color: #fff;
+}
+
+a {
+  color: #cda45e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d9ba85;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+#header {
+    background: rgba(12, 11, 9, 0.6);
+    border-bottom: 1px solid rgba(12, 11, 9, 0.6);
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 15px 0;
+    top: 40px;
+  }
+  
+  #header.header-scrolled {
+    top: 0;
+    background: rgba(0, 0, 0, 0.85);
+    border-bottom: 1px solid #37332a;
+  }
+  
+  #header .logo {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #header .logo a {
+    color: #fff;
+  }
+  
+  #header .logo img {
+    max-height: 40px;
+  }
+  #navbar {
+    margin-top: 0; 
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li {
+    margin: 0 10px; 
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 0;
+    color: #fff; 
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#navbar ul li a:hover
+ {
+    color: #d9ba85; /* Adjust as needed for text color on hover */
+    background-color: transparent; /* Adjust as needed for background color on hover */
+    border-radius: 0; /* Add rounded corners on hover if desired */
+}
+
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  color: #fff;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.navbar a i,
+.navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+#hero {
+  margin-top: 5px;
+  width: 100%;
+  height: 300px;
+  background: url("../img/ella1.avif") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
+#Heading, #Day2, #Paragraph {
+  margin-top: 20px; /* Add space between sections */
+}
+
+.text-start {
+  text-align: left; /* Align text to the left */
+  
+}
+#Heading h3 {
+  color: #525254; 
+}
+
+#Day2 h4 {
+  color: #525254;
+}
+
+#Paragraph p {
+  color: #525254; 
+}
+.text-start {
+  text-align: left; 
+  margin-right: 20px; 
+}
+.tick-icon {
+  width: 20px; 
+  height: auto; 
+  margin-right: 10px; 
+}
+ul.list-unstyled li {
+  color: #525254; 
+}
+.img-fluid {
+  max-width: 100%; 
+}
+.mb-3 {
+  margin-bottom: 15px; 
+  width: 2000px;
+  height: 250px;
+}
