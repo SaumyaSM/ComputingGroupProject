@@ -1,0 +1,288 @@
+body {
+    font-family: "Century Gothic", sans-serif;
+    background: #fff;
+    color: #fff;
+    margin: 15px;
+    padding: 5px;
+    justify-content: left;
+  }
+  
+  a {
+    color: #cda45e;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #d9ba85;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Century Gothic", serif;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+  
+  }
+  
+  #header {
+      background: rgba(12, 11, 9, 0.6);
+      border-bottom: 1px solid rgba(12, 11, 9, 0.6);
+      transition: all 0.5s;
+      z-index: 997;
+      padding: 15px 0;
+      
+    }
+    
+    #header.header-scrolled {
+      top: 0;
+      background: rgba(0, 0, 0, 0.85);
+      border-bottom: 1px solid #37332a;
+    }
+    
+    #header .logo {
+      font-size: 28px;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      font-weight: 300;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-family: "Poppins", sans-serif;
+    }
+    
+    #header .logo a {
+      color: #fff;
+    }
+    
+    #header .logo img {
+      max-height: 40px;
+    }
+    #navbar {
+      margin-top: 0; 
+  }
+  
+  #navbar ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  #navbar ul li {
+      margin: 0 10px; 
+  }
+  
+  #navbar ul li a {
+      display: block;
+      padding: 0;
+      color: #fff; 
+      text-decoration: none;
+      transition: 0.3s;
+  }
+  
+  #navbar ul li a:hover
+   {
+      color: #d9ba85; 
+      background-color: transparent; 
+      border-radius: 0;
+  }
+  
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    color: #fff;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+  }
+  
+  .navbar a i,
+  .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+  
+  #hero {
+    margin: 20px;
+    border-radius: 10px;
+    width: 65%;
+    height: 400px;
+    background: url("../img/ella1.avif") top center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+  }
+  .card {
+    margin: 20px;
+    background-color: #e5eff9; 
+    border-radius: 15px;
+    padding: 20px;
+    width: 800px;
+  }
+  
+  .icon {
+    width: 10px; 
+    height: auto;
+    margin-right: 10px;
+  }
+  .container {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+  
+  .cities {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .text-start img {
+    margin-left: 15px;
+    border-radius: 20px;
+  }
+  
+  .box {
+    background-color: #f0f0f0; 
+    color: #333;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  
+  #Heading, #Day2, #Paragraph {
+    margin-top: 20px; 
+  }
+  
+  .text-start {
+    text-align: left; 
+    
+  }
+  #Heading h3 {
+    color: black;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 40px;
+  }
+  
+  #Day2 h4 {
+    color: #525254;
+  }
+  
+  #Para p {
+    color: #525254;
+    text-align: left;
+  }
+  .class{
+    margin-left: 10px;
+    text-align: left;
+    margin-right: 50px;
+  }
+  .text-start {
+    text-align: left; 
+    margin-right: 20px; 
+  }
+  .tick-icon {
+    width: 10px; 
+    height: auto; 
+    margin-right: 10px; 
+  }
+  ul.list-unstyled li {
+    color: #525254; 
+  }
+  .highlights h5 .heading5 {
+    margin-top: 0;
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .container.gallery-section .img-fluid {
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-right: 130px; 
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+  }
+  .gallery-section {
+    padding: 20px 0;
+    margin-right: 20px;
+  }
+  
+  .gallery-section .row {
+    margin-bottom: 20px;
+  }
+  
+  .gallery-section .col-md-4 {
+    padding: 0 10px;
+  }
+  
+  .card1{
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    margin: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    width: 700px;
+  }
+  .fixed-card {
+    position: fixed;
+    top: 150px; 
+    right: 20px; 
+    width: 370px;
+    height: 400px;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999; 
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .price-value {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .fixed-card p {
+    color: #525254;
+    font-size: 20px;
+  }
+  .map img{
+    width: 450px;
+    height: 500px;
+  }
+  .container {
+    padding: 20px;
+  }
+  
+  .head {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  
